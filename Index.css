@@ -1,0 +1,90 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+nav{
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.hero-image{
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(img/banner.jpg);
+}
+
+.hero-text{
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+}
+
+.Mission{
+    height: 40%;
+    background-color: #ffe677;
+    margin: 0%;
+    padding: 2rem 12rem 2rem 12rem;
+}
+
+.Mission-text{
+    
+    display: block;
+    width: 40%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  
+    color: black;
+}
+
+
+.About-us{
+    height: 40%;
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 2rem 12rem 2rem 12rem;
+}
+
+.About-us-text{
+    display: block;
+    width: 40%;
+    text-align: left;
+    position: relative;
+    margin: auto;
+    color: black;
+}
+
+.Our-team{
+background-color: #ff4746;
+align-content: center;
+padding: auto;
+color:white;
+}
+
+.Our-team-photos{
+text-align: center;
+display: table;
+margin: 0 auto;
+padding: 1rem 1rem;
+width: 12rem;
+}
+
+.Our-team-header{
+padding: 2rem 12rem;
+color: white;
+
+}
